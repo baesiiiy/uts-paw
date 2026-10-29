@@ -65,11 +65,11 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Bethsy Sabrina
+NIM: 124140045
+Kelas: RA
+Tema: Destinasi Wisata Lampung
+Deployment:  https://baesiiiy.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
@@ -86,4 +86,3 @@ npm run dev
 ## Konsep React yang dipakai
 
 - ...
-```
