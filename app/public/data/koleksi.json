@@ -1,91 +1,91 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judulDestinasi": "Bukit Aslan",
+    "kategori": "Wisata Alam",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": 35000,
+    "jamBuka ": "Selasa - Sabtu: 14.00 - 22.00 , Minggu dan Hari Libur:  10.00 - 22.00"
   },
 
   {
     "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
+    "judulDestinasi": "Taman Nasional Way Kambas",
+    "kategori": "Wisata Alam",
+    "kabupatenKota": "Lampung Timur",
+    "hargaRp": 30000,
+    "jamBuka" : "Senin - Minggu : 08.00 - 18.00"
+  },
+
+   {
+    "id": "3",
+    "judulDestinasi": "Wira Garden",
+    "kategori": "Wisata Alam",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": 75000,
+    "jamBuka" : "Senin - Minggu : 08.00 - 17.00"
+  },
+
+   {
+    "id": "4",
+    "judulDestinasi": "Museum Lampung",
+    "kategori": "Wisata Edukasi",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": 5000,
+    "jamBuka" : "Selasa - Minggu : 08.00 - 15.00"
+  },
+
+ {
+    "id": "5",
+    "judulDestinasi": "Bakso Son Haji Sony 1",
+    "kategori": "Kuliner",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": "25000 - 50000",
+    "jamBuka" : "Senin - Minggu : 10.00 - 21.00"
+  },
+
+ {
+    "id": "6",
+    "judulDestinasi": "Perpustakaan Lampung",
+    "kategori": "Wisata Edukasi",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": "Gratis",
+    "jamBuka" : "Senin - Sabtu : 08.00 - 16.00"
   },
 
   {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
+    "id": "7",
+    "judulDestinasi": "Pempek 123",
+    "kategori": "Kuliner",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": "5000 - 25000",
+    "jamBuka" : "Senin - Minggu : 09.00 - 18.00"
   },
 
-  {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
-  },
-
-  {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
-  },
-
-  {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
-  },
-
-  {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
-  },
-
-  {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
+ {
+    "id": "8",
+    "judulDestinasi": "Saung Bang Ocit",
+    "kategori": "Kuliner",
+    "kabupatenKota": "Bandar Lampung",
+    "hargaRp": "25000 - 85000",
+    "jamBuka" : "Senin - Minggu : 09.30 - 20.30"
   }, 
 
   {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
+    "id": "9",
+    "judulDestinasi": "Pantai Gigi Hiu",
+    "kategori": "Wisata Pantai",
+    "kabupatenKota": "Tanggamus",
+    "hargaRp": 20000,
+    "jamBuka" : "Senin - Minggu : 08.00 - 17.00"
   }, 
 
-  {
-    "id": "2",
-    "judul":  "contoh item kedua",
-    "kategori": "contoh",
-    "fieldTema1" : "ganti sesuai field tema",
-    "fieldTema2" : 0,
-    "fieldTema3" : "ganti sesuai field tema"
+ {
+    "id": "10",
+    "judulDestinasi": "Pantai Rio by the Beach",
+    "kategori": "Wisata Pantai",
+    "kabupatenKota": "Lampung Selatan",
+    "hargaRp": 40000,
+    "jamBuka" : "Senin - Minggu : 07.00 - 20.00"
   }
 ]
