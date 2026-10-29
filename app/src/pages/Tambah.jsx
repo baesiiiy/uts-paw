@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judulDestinasi: '', kategori : '', kabupatenKota : '', hargaRp : '', jamBuka : ''}
+const AWAL = { judulDestinasi: '', kategori : 'Wisata Alam', kabupatenKota : '', hargaRp : '', jamBuka : ''}
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -15,11 +15,11 @@ export default function Tambah() {
 
   const simpan = (e) => {
     e.preventDefault()
-    if (form.judul.trim().length < 3) {
+    if (form.judulDestinasi.trim().length < 3) {
       setGalat('Judul wajib diisi, minimal 3 karakter.')
       return
     }
-    tambah({ ...form, judul: form.judul.trim() })
+    tambah({ ...form, judulDestinasi: form.judulDestinasi.trim() })
     navigate('/koleksi')
   }
 
@@ -28,8 +28,8 @@ export default function Tambah() {
       <h1>Tambah Data Destinasi</h1>
 
 
-      <label htmlFor="judul">Judul</label>
-      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+      <label htmlFor="judulDestinasi">Judul Destinasi</label>
+      <input id="judulDestinasi" name="judulDestinasi" value={form.judulDestinasi} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="kategori">Kategori</label>
