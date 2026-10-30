@@ -7,6 +7,7 @@ export default function KartuItem({ item }) {
       <h3>
         <Link to={`/koleksi/${id}`}>{judul}</Link>
       </h3>
+      <p>Destinasi Wisata Lampung</p>
 
     </article>
   )

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judulDestinasi: '', kategori : 'Wisata Alam', kabupatenKota : '', hargaRp : '', jamBuka : ''}
+const AWAL = { judul: '', kategori : 'Wisata Alam', kabupatenKota : '', hargaRp : '', jamBuka : ''}
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -15,22 +15,23 @@ export default function Tambah() {
 
   const simpan = (e) => {
     e.preventDefault()
-    if (form.judulDestinasi.trim().length < 3) {
+    if (form.judul.trim().length < 3) {
       setGalat('Judul wajib diisi, minimal 3 karakter.')
-      return
+      return 
     }
-    tambah({ ...form, judulDestinasi: form.judulDestinasi.trim() })
+    tambah({ ...form, judul: form.judul.trim() })
+    setGalat('')
     navigate('/koleksi')
   }
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
+
       <h1>Tambah Data Destinasi</h1>
 
-
-      <label htmlFor="judulDestinasi">Judul Destinasi</label>
-      <input id="judulDestinasi" name="judulDestinasi" value={form.judulDestinasi} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
+      <label htmlFor="judul">Judul Destinasi</label>
+      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
 
       <label htmlFor="kategori">Kategori</label>
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
@@ -42,15 +43,15 @@ export default function Tambah() {
 
       <label htmlFor="kabupatenKota">Kabupaten Kota</label>
       <input id="kabupatenKota" name="kabupatenKota"  value={form.kabupatenKota} onChange={ubah} />
-      {galat && <p role="alert">{galat}</p>}
+      
 
       <label htmlFor="hargaRp">Harga Tiket (Rp)</label>
       <input id="hargaRp" name="hargaRp" value={form.hargaRp} onChange={ubah}/>
-        {galat && <p role="alert">{galat}</p>}
+        
 
       <label htmlFor="jamBuka">Jam Buka</label>
       <input id="jamBuka" name="jamBuka" value={form.jamBuka} onChange={ubah}/>
-        {galat && <p role="alert">{galat}</p>}   
+          
     
 
       <button type="submit">Simpan</button>
