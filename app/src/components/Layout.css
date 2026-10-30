@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background:#f5dbeb ;
   padding: 1rem 1.5rem;
 }
 
@@ -30,8 +31,9 @@
 
 .kaki {
   padding: 1rem 1.5rem;
-  border-top: 1px solid #dcdcdc;
-  color: #57606a;
+  background: #85456e;
+  border-top: 1px solid #f5d4ea;
+  color: #f3c8e4;
   font-size: 0.9rem;
 }
 

@@ -4,11 +4,10 @@ export default function KartuItem({ item }) {
   const { id, judul } = item
   return (
     <article className="kartu">
-      <h3>
+      <h3> 
         <Link to={`/koleksi/${id}`}>{judul}</Link>
-      </h3>
+        </h3>
       <p>Destinasi Wisata Lampung</p>
-
     </article>
   )
 }

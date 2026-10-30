@@ -13,14 +13,14 @@
 .formulir input,
 .formulir select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #e7b7d8;
   border-radius: 6px;
   font: inherit;
 }
 
 .formulir [role='alert'] {
   margin: 0;
-  color: #b42318;
+  color: #e5aed0;
   font-size: 0.9rem;
 }
 
@@ -30,8 +30,8 @@
   padding: 0.6rem 1.5rem;
   border: 0;
   border-radius: 6px;
-  background: #1f2328;
-  color: #fff;
+  background: #eeabe1;
+  color: #0f0f0f;
   font: inherit;
   cursor: pointer;
 }
