@@ -14,7 +14,7 @@ export default function Koleksi() {
   const daftarKategori = ['Semua', ...new Set(items.map((item) => item.kategori))]
   const tampil = items.filter(
     (item) =>
-      item.judulDestinasi.toLowerCase().includes(cari.toLowerCase()) &&
+      (item.judulDestinasi || '').toLowerCase().includes((cari || '').toLowerCase()) &&
       (kategori === 'Semua' || item.kategori === kategori),
   )
 

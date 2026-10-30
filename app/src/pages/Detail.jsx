@@ -30,13 +30,17 @@ export default function Detail() {
       <dl>
         <dt>kategori</dt>
         <dd>{item.kategori}</dd>
+
         <dt>Kabupaten/Kota</dt>
         <dd>{item.kabupatenKota}</dd>
-        <dt>Harga</dt>
+
+        <dt>Harga Tiket (Rp)</dt>
         <dd>{item.hargaRp}</dd>
+
          <dt>Jam Buka </dt>
         <dd>{item.jamBuka }</dd>
       </dl>
+      
       <div className="aksi">
         <button type="button" onClick={konfirmasiHapus}>
           Hapus

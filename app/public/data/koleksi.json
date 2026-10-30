@@ -1,91 +1,91 @@
 [
   {
     "id": "1",
-    "judulDestinasi": "Bukit Aslan",
+    "judul": "Bukit Aslan",
     "kategori": "Wisata Alam",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": 35000,
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 35000,
     "jamBuka" : "Selasa - Minggu : 10.00 - 22.00"
   },
 
   {
     "id": "2",
-    "judulDestinasi": "Taman Nasional Way Kambas",
+    "judul": "Taman Nasional Way Kambas",
     "kategori": "Wisata Alam",
-    "kabupatenKota": "Lampung Timur",
-    "hargaRp": 30000,
+    "kabupaten": "Lampung Timur",
+    "hargaTiket": 30000,
     "jamBuka" : "Senin - Minggu : 08.00 - 18.00"
   },
 
    {
     "id": "3",
-    "judulDestinasi": "Wira Garden",
+    "judul": "Wira Garden",
     "kategori": "Wisata Alam",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": 75000,
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 75000,
     "jamBuka" : "Senin - Minggu : 08.00 - 17.00"
   },
 
    {
     "id": "4",
-    "judulDestinasi": "Museum Lampung",
+    "judul": "Museum Lampung",
     "kategori": "Wisata Edukasi",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": 5000,
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 5000,
     "jamBuka" : "Selasa - Minggu : 08.00 - 15.00"
   },
 
  {
     "id": "5",
-    "judulDestinasi": "Bakso Son Haji Sony 1",
+    "judul": "Bakso Son Haji Sony 1",
     "kategori": "Kuliner",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": "25000 - 50000",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": "25000 - 50000",
     "jamBuka" : "Senin - Minggu : 10.00 - 21.00"
   },
 
  {
     "id": "6",
-    "judulDestinasi": "Perpustakaan Lampung",
+    "judul": "Perpustakaan Lampung",
     "kategori": "Wisata Edukasi",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": "Gratis",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": "Gratis",
     "jamBuka" : "Senin - Sabtu : 08.00 - 16.00"
   },
 
   {
     "id": "7",
-    "judulDestinasi": "Pempek 123",
+    "judul": "Pempek 123",
     "kategori": "Kuliner",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": "5000 - 25000",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": "5000 - 25000",
     "jamBuka" : "Senin - Minggu : 09.00 - 18.00"
   },
 
  {
     "id": "8",
-    "judulDestinasi": "Saung Bang Ocit",
+    "judul": "Saung Bang Ocit",
     "kategori": "Kuliner",
-    "kabupatenKota": "Bandar Lampung",
-    "hargaRp": "25000 - 85000",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": "25000 - 85000",
     "jamBuka" : "Senin - Minggu : 09.30 - 20.30"
   }, 
 
   {
     "id": "9",
-    "judulDestinasi": "Pantai Gigi Hiu",
+    "judul": "Pantai Gigi Hiu",
     "kategori": "Wisata Pantai",
-    "kabupatenKota": "Tanggamus",
-    "hargaRp": 20000,
+    "kabupaten": "Tanggamus",
+    "hargaTiket": 20000,
     "jamBuka" : "Senin - Minggu : 08.00 - 17.00"
   }, 
 
  {
     "id": "10",
-    "judulDestinasi": "Pantai Rio by the Beach",
+    "judul": "Pantai Rio by the Beach",
     "kategori": "Wisata Pantai",
-    "kabupatenKota": "Lampung Selatan",
-    "hargaRp": 40000,
+    "kabupaten": "Lampung Selatan",
+    "hargaTiket": 40000,
     "jamBuka" : "Senin - Minggu : 07.00 - 20.00"
   }
 ]

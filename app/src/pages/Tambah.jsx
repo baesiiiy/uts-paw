@@ -44,7 +44,7 @@ export default function Tambah() {
       <input id="kabupatenKota" name="kabupatenKota"  value={form.kabupatenKota} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="hargaRp">Harga Rp</label>
+      <label htmlFor="hargaRp">Harga Tiket (Rp)</label>
       <input id="hargaRp" name="hargaRp" value={form.hargaRp} onChange={ubah}/>
         {galat && <p role="alert">{galat}</p>}
 
