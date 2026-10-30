@@ -75,7 +75,14 @@ Deployment:  https://baesiiiy.github.io/uts-paw/
 
 ## Fitur
 
-- ...
+- Daftar Destinasi Wisata Lampung
+- Pencarian Destinasi
+- Filter Kategori
+- Detail Destinasi Wisata Lampung
+- Tambah Destinasi
+- Hapus Destinasi
+- Local Storage
+- Navigasi Halaman
 
 ## Menjalankan secara lokal
 
@@ -85,4 +92,15 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- Component
+- Jsx
+- Functional Component
+- Props
+- useState
+- useEffect
+- useContext
+- React Router DOM
+- Custom Hooks
+- Conditional Rendering
+- List Rendering
+- Event Handling
